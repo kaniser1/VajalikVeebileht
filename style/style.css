@@ -33,6 +33,17 @@
     background-color: goldenrod;
     background-size: cover;
 }
+.col-1 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.col-1 h1 {
+    font-size: 3em;
+}
+.col-1 p {
+    font-size: 2em;
+}
 .col-2 {
     display: inline-block;
     vertical-align: top;
@@ -45,6 +56,9 @@
 .col-2 p {
     text-align: center;
     font-size: 2em;
+}
+.col-2 h3 {
+    text-align: center;
 }
 br {clear:left}
 .menuu {
@@ -99,10 +113,19 @@ br {clear:left}
     font-style: oblique;
     }
 .soc-media a {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #fff;
   }
 .soc-media a:hover {
     color: white;
     background-color: gold;
+}
+.nupupaigutus {
+    text-align: center;
+}
+.nuppkeskele {
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
 }
