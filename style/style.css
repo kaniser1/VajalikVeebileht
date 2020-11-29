@@ -33,6 +33,19 @@
     background-color: goldenrod;
     background-size: cover;
 }
+.artikli-osa button {
+    background-color: #005555;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.artikli-osa button:hover {
+    color: gold;
+    background-color: teal;
+}
 .col-1 {
     display: inline-block;
     vertical-align: top;
@@ -40,9 +53,11 @@
 }
 .col-1 h1 {
     font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .col-1 p {
     font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .col-2 {
     display: inline-block;
@@ -52,13 +67,19 @@
 .col-2 h1 {
     text-align: center;
     font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .col-2 p {
     text-align: center;
     font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .col-2 h3 {
     text-align: center;
+    padding-top: 1em;
+    font-size: xxx-large;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 br {clear:left}
 .menuu {
@@ -99,6 +120,7 @@ br {clear:left}
 }
 .alumine-osa h4 {
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .soc-media {
     display: flex;
@@ -106,16 +128,16 @@ br {clear:left}
     margin: 0;
     padding: 0;
     list-style-type: none;
-  }
+}
 .soc-media li {
     margin-right: 1em;
     font-size: 1.5em;
     font-style: oblique;
-    }
+}
 .soc-media a {
     font-size: 1.2em;
     color: #fff;
-  }
+}
 .soc-media a:hover {
     color: white;
     background-color: gold;
@@ -147,4 +169,15 @@ br {clear:left}
     text-align: center;
     margin-left: 350px;
     margin-right: 350px;
+}
+.pildipaigutus img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.pildiala {
+    width: 300px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
