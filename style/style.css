@@ -68,6 +68,7 @@
     text-align: center;
     font-size: 3em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px grey;
 }
 .col-2 p {
     text-align: center;
@@ -77,8 +78,8 @@
 .col-2 h3 {
     text-align: center;
     padding-top: 1em;
-    font-size: xxx-large;
-    color: white;
+    font-size: 34px;
+    text-shadow: 1px 1px grey;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 br {clear:left}
@@ -139,7 +140,7 @@ br {clear:left}
     color: #fff;
 }
 .soc-media a:hover {
-    color: white;
+    color: lightgray;
     background-color: gold;
 }
 .nupupaigutus {
